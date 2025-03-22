@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    font-weight: 400;
+}
+
+.main {
+    background-color: white;
+    text-align: center;
+    margin: 5rem 5rem 5rem 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    height: 100rem;
+    width: 40rem;
+    border-radius: 1rem;
+}
+
+img {
+    margin-top: 30px;
+    border-radius: 1rem;
+    width: 650px;
+    height: 300px;
+}
+
+.main h1 {
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-align: left;
+}
+
+.main h2 {
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin-left: 1.1rem;
+    text-align: left;
+    color: hsl(14, 45%, 36%);
+}
+
+.main hr {
+    margin-top: 2rem;
+}
+
+.main ul {
+    list-style-position: inside;
+    text-align: left;
+    margin-left: -1.5rem;
+    line-height: 2;
+}
+
+.main ol {
+    list-style-position: outside;
+    text-align: left;
+    line-height: 2;
+}
+
+.main ol li {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+}
+
+.main p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section {
+    background-color: rgb(255, 182, 193, 0.1);
+    height: 9rem;
+    padding-top: 5px;
+    border-radius: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+}
+
+.section p {
+    text-align: left;
+    margin-left: 2rem;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+
+.section ul li {
+    margin-left: 1.9rem;
+    line-height: 1.8;
+}
+
+.table-contents {
+    margin-left: 2rem;
+}
+
+.table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    margin-left: 2rem
+}
+
+.table2 {
+    color: rgb(91, 23, 23);
+    font-family: "Outfit", serif;
+    font-weight: bolder;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-family: "Outfit", serif;
+    font-weight: bolder;
+    font-weight: lighter;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 375px) {
+    .main {
+        height: 100%;
+    }
+
+    img {
+        width: 375px;
+        height: auto;
+        border-radius: 0;
+    }
+}
